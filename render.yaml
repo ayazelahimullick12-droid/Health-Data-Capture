@@ -1,0 +1,14 @@
+# Render Blueprint: hosts the prototype as a free static site (no server code needed).
+services:
+  - type: web
+    name: health-data-capture
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /web
+        destination: /web.html
+      - type: rewrite
+        source: /dashboard
+        destination: /web.html

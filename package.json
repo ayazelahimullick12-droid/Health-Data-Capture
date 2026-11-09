@@ -1,0 +1,12 @@
+{
+  "name": "health-data-capture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clickable prototype of the Dabi SK Health Data Capture app and TrendX Health Data Dashboard (BRD v4, Phase 1). Demo data only.",
+  "scripts": {
+    "start": "node serve.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

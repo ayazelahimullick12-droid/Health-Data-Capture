@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TrendX Health Data Dashboard</title>
+<link rel="icon" href="img/ic_launcher.png">
+<link rel="stylesheet" href="web.css">
+</head>
+<body>
+<div id="sprite"></div>
+<div class="app">
+  <header class="topbar">
+    <button class="menu" id="menuBtn" aria-label="Menu"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></button>
+    <img src="img/logo_text.png" alt="BRAC">
+    <div class="prod">TrendX<small>Health Data Dashboard</small></div>
+    <div class="right"><span class="who-label">Viewing as</span><select id="role" aria-label="Viewing as"></select><a href="index.html" target="_blank" rel="noopener">SK phone app ↗</a></div>
+  </header>
+  <nav class="nav" id="nav"></nav>
+  <main class="main" id="main"></main>
+</div>
+<script src="icons.js"></script>
+<script>document.getElementById("sprite").innerHTML = window.ICON_SPRITE;</script>
+<script src="data.js"></script>
+<script src="web.js"></script>
+</body>
+</html>
