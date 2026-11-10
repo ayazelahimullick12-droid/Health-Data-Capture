@@ -143,7 +143,7 @@
     content.innerHTML = `<div class="login">
       <div class="lsw lsw-login" id="lswLogin"><span data-l="en" class="${S.lang === "en" ? "on" : ""}">En</span><span data-l="bn" class="${S.lang === "bn" ? "on" : ""}">বাং</span></div>
       <img src="img/logo_text.png" alt="BRAC">
-      <h1>${esc(t("appName"))}</h1><div class="sub">BRAC Microfinance · Dabi</div>
+      <h1>${esc(t("appName"))}</h1><div class="sub">BRAC Microfinance</div>
       <div class="lf">${esc(t("pin"))}<input id="pin" inputmode="numeric" maxlength="6" value="${esc(H.USERS[sel].pin)}"></div>
       <div class="lf">${esc(t("password"))}<input id="pwd" type="password" value="demo1234"></div>
       <div id="lerr"></div>
