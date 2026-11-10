@@ -81,7 +81,7 @@
     AM: { pin: "150322", name: "Farzana Akter", role: "AM", title: "Area Manager", ...where("Chilahati") },
     RC: { pin: "110945", name: "Kamrul Hasan", role: "RC", title: "Regional Coordinator", ...where("Chilahati") },
     DC: { pin: "090118", name: "Nasrin Sultana", role: "DC", title: "Division Coordinator", ...where("Chilahati") },
-    HO: { pin: "010101", name: "Tanvir Alam", role: "HO", title: "Head Office", ...where("Chilahati") },
+    HO: { pin: "010101", name: "Jahid Hasan", role: "HO", title: "Head Office", ...where("Chilahati") },
   };
 
   // ---------- Demo people & NIDs ----------
